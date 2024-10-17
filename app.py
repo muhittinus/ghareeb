@@ -11,7 +11,7 @@ migrate = Migrate(app, db)
 
 
 def get_db_connection():
-    conn = sqlite3.connect('/Users/muhammedozolcar/Desktop/Codespace/dictionary/dictionaries.db')
+    conn = sqlite3.connect('dictionaries.db')
     conn.row_factory = sqlite3.Row
     return conn
 
